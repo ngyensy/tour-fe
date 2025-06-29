@@ -6,7 +6,7 @@ import TourCard from './TourCard';
 
 // Hàm lấy dữ liệu từ API
 const fetchTours = async () => {
-  const { data } = await axios.get(`${process.env.REACT_APP_API_URL}/Tours`);
+  const { data } = await axios.get(`${process.env.REACT_APP_API_URL}`);
   return data.$values || [];
 };
 

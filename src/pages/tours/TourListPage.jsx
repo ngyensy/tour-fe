@@ -11,7 +11,7 @@ import Erro from '../../assets/img/loikothaytour.png'
 
 // Hàm lấy dữ liệu từ API
 const fetchTours = async () => {
-  const { data } = await axios.get('http://localhost:4000/v1/Tours');
+  const { data } = await axios.get('http://localhost:4000');
   return data.$values.filter(tour => tour.discount === 0); // Lọc ngay tại đây các tour có discount = 0
 };
 

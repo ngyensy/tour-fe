@@ -9,6 +9,7 @@ import Footer from '../components/Footer';
 import { EyeIcon, EyeSlashIcon } from '@heroicons/react/24/outline';
 import axios from 'axios';
 import { useAuth } from '../context/AuthContext';
+import { Link } from 'react-router-dom';
 
 // API Login
 const loginUser = async (loginData) => {
@@ -115,7 +116,7 @@ const LoginForm = () => {
           {/* Đăng ký link */}
           <div className="text-center m-4">
             <p className="font-medium text-sm italic">
-              Chưa là thành viên? <a href="/register" className="text-blue-600 hover:underline">Đăng ký ngay</a>
+              Chưa là thành viên? <Link to="/register" className="text-blue-600 hover:underline">Đăng ký ngay</Link>
             </p>
           </div>
           
