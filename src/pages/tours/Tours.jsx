@@ -5,7 +5,6 @@ import TourCard from './TourCard';
 
 const API_URL = import.meta.env.VITE_API_URL;
 
-
 // Hàm lấy dữ liệu từ API
 export const fetchTours = async () => {
   const res = await axios.get(`${API_URL}/Tours`);
