@@ -3,6 +3,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import { useAuth } from "../../context/AuthContext";
 import StarRatings from "react-star-ratings";
+import { Link } from "react-router-dom";
 
 const TourReviews = ({ tourId, setAverageRating }) => {
   const { user } = useAuth(); // Lấy user từ context xác thực
@@ -284,8 +285,9 @@ const TourReviews = ({ tourId, setAverageRating }) => {
       {/* Hiển thị thông báo nếu người dùng chưa đăng nhập */}
       {!user && (
         <p className="mt-4 font-semibold">
-          Vui lòng <a href="/login" className="text-blue-500">đăng nhập</a> để đánh giá tour.
+          Vui lòng <Link to="/login" className="text-blue-500">đăng nhập</Link> để đánh giá tour.
         </p>
+        
       )}
     </div>
     
