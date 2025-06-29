@@ -1,0 +1,72 @@
+.account_left-sidebar {
+    width: 250px;
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  .account_left-sidebar-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .account-img {
+    margin-right: 10px;
+  }
+  
+  .account-main-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .account-id {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .account-email {
+    color: #666;
+    font-size: 14px;
+  }
+  
+  .account_left-sidebar-body {
+    margin-top: 20px;
+  }
+  
+  .sidebar--item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .sidebar--item svg {
+    margin-right: 10px;
+  }
+  
+  .sidebar--item--sm {
+    font-size: 14px;
+    padding-left: 30px;
+  }
+  
+  .active-sidebar {
+    background-color: #e7e7e7;
+    border-color: #ccc;
+  }
+  
+  .dropdown-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dropdown-container--item {
+    background-color: #f9f9f9;
+  }
+  
+  .dropdown-container--item:hover {
+    background-color: #f1f1f1;
+  }
+  

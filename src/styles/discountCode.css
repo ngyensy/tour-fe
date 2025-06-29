@@ -1,0 +1,35 @@
+.discount-section {
+    margin-top: 20px;
+  }
+  
+  .input-discount {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+  }
+  
+  .apply-discount-btn {
+    padding: 10px;
+    background-color: #2d80d8;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .apply-discount-btn:hover {
+    background-color: #21ceed;
+  }
+  
+  .discount-details {
+    margin-top: 20px;
+  }
+  
+  .discount-details p {
+    font-size: 16px;
+  }
+  
+  h3 {
+    font-size: 20px;
+    color: #333;
+  }
+  

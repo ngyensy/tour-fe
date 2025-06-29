@@ -1,0 +1,14 @@
+/* Làm nổi bật điểm thưởng */
+.reward-points {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: blue; /* Màu vàng nhạt */
+    background-color: #fff3e0; /* Nền nhạt */
+    padding: 2px 5px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  
