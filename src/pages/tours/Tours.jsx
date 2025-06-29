@@ -3,10 +3,11 @@ import { useQuery } from 'react-query';  // Import từ react-query
 import axios from 'axios';
 import TourCard from './TourCard';
 
+
 // Hàm lấy dữ liệu từ API
 const fetchTours = async () => {
-    const { data } = await axios.get('http://localhost:4000/v1/Tours');
-    return data.$values || []; 
+  const { data } = await axios.get(`${process.env.REACT_APP_API_URL}/Tours`);
+  return data.$values || [];
 };
 
 const Tours = () => {
